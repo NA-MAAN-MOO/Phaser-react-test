@@ -1,0 +1,524 @@
+{
+	"textures": [
+		{
+			"image": "orangegirl.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 50,
+				"h": 161
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-72.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 17
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-73.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 17
+					},
+					"frame": {
+						"x": 18,
+						"y": 1,
+						"w": 15,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-75.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 17
+					},
+					"frame": {
+						"x": 35,
+						"y": 1,
+						"w": 14,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-74.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 17
+					},
+					"frame": {
+						"x": 1,
+						"y": 20,
+						"w": 15,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-76.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 17
+					},
+					"frame": {
+						"x": 18,
+						"y": 20,
+						"w": 15,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-78.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 17
+					},
+					"frame": {
+						"x": 35,
+						"y": 20,
+						"w": 14,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-77.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 17
+					},
+					"frame": {
+						"x": 1,
+						"y": 39,
+						"w": 15,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-79.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 17
+					},
+					"frame": {
+						"x": 18,
+						"y": 39,
+						"w": 14,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-88.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 34,
+						"y": 39,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-89.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 14,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 58,
+						"w": 14,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-90.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 17,
+						"y": 58,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-91.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 34,
+						"y": 59,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-92.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 78,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-93.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 14,
+						"h": 18
+					},
+					"frame": {
+						"x": 18,
+						"y": 78,
+						"w": 14,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-94.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 14,
+						"h": 18
+					},
+					"frame": {
+						"x": 34,
+						"y": 79,
+						"w": 14,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-95.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 98,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-81.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 19
+					},
+					"frame": {
+						"x": 18,
+						"y": 98,
+						"w": 14,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 19
+					},
+					"frame": {
+						"x": 34,
+						"y": 99,
+						"w": 15,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-82.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 19
+					},
+					"frame": {
+						"x": 1,
+						"y": 118,
+						"w": 15,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-83.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 19
+					},
+					"frame": {
+						"x": 18,
+						"y": 119,
+						"w": 14,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 19
+					},
+					"frame": {
+						"x": 34,
+						"y": 120,
+						"w": 15,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-85.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 19
+					},
+					"frame": {
+						"x": 1,
+						"y": 139,
+						"w": 14,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-86.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 19
+					},
+					"frame": {
+						"x": 17,
+						"y": 140,
+						"w": 14,
+						"h": 19
+					}
+				},
+				{
+					"filename": "Small-8-Direction-Characters_by_AxulArt-87.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 19
+					},
+					"frame": {
+						"x": 33,
+						"y": 141,
+						"w": 14,
+						"h": 19
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:af44ce5ef82331f0fbb17811f2c3967a:d395ae7790156b74723b5fdf6878a19f:ac0533aa4f4554ae2c52205fd32dbbf1$"
+	}
+}
