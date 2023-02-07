@@ -3,8 +3,8 @@ import { useGame } from "../hooks/useGameContext";
 import styled from "styled-components";
 
 const BackgroundDiv = styled.div`
-  width: 800px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   position: relative;
   border: 4px solid green;
 `;

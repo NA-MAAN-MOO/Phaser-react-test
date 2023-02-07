@@ -8,8 +8,8 @@ import styled from "styled-components";
 
 const HoverDiv = styled.div`
   position: absolute;
-  height: 500px;
-  width: 800px;
+  height: 100%;
+  width: 100%;
 `;
 
 function Main() {
