@@ -4,15 +4,19 @@ import Main from "./Main";
 import reportWebVitals from "./reportWebVitals";
 import GameContextProvider from "./contexts/GameContext";
 import "./PhaserGame";
+import { store } from "./stores";
+import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <GameContextProvider>
-      <Main />
-    </GameContextProvider>
+    <Provider store={store}>
+      <GameContextProvider>
+        <Main />
+      </GameContextProvider>
+    </Provider>
   </React.StrictMode>
 );
 

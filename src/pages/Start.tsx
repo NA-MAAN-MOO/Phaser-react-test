@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useGame } from "../hooks/useGameContext";
+import { useSelector, useDispatch } from "react-redux";
+import { openGame } from "../stores/modeSlice";
 import styled from "styled-components";
 
 const StartDiv = styled.div`
@@ -15,10 +16,10 @@ const StartDiv = styled.div`
   border: 3px solid red;
 `;
 const Start = () => {
-  const { openGame } = useGame();
+  const dispatch = useDispatch();
   return (
     <StartDiv>
-      <button type="button" onClick={() => openGame()}>
+      <button type="button" onClick={() => dispatch(openGame())}>
         게임 시작하기
       </button>
     </StartDiv>

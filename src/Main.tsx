@@ -5,6 +5,9 @@ import Editor from "./pages/Editor";
 import { GAME_STATUS } from "./utils/Constants";
 import { useGame } from "./hooks/useGameContext";
 import styled from "styled-components";
+import { useSelector, useDispatch } from "react-redux";
+import type { RootState } from "./stores";
+import { openGame, openEditor, openMain } from "./stores/modeSlice";
 
 const HoverDiv = styled.div`
   position: absolute;
@@ -14,7 +17,10 @@ const HoverDiv = styled.div`
 
 function Main() {
   const { MAIN, GAME, EDITOR } = GAME_STATUS;
-  const { status, openGame, openEditor, openMain } = useGame();
+  const status = useSelector((state: RootState) => state.mode.status);
+  const dispatch = useDispatch();
+
+  // const { status, openGame, openEditor, openMain } = useGame();
 
   return (
     <HoverDiv>
