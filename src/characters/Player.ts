@@ -3,7 +3,7 @@
 import Phaser from "phaser";
 
 export default class Player extends Phaser.Physics.Arcade.Sprite {
-  private selectedObject: String;
+  // private selectedObject: String;
   constructor(
     scene: Phaser.Scene,
     x: number,
@@ -13,15 +13,15 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     frame?: string | number
   ) {
     super(scene, x, y, texture, frame);
-    this.selectedObject = "";
+    // this.selectedObject = "";
   }
 
-  setSelectedObject(object: String) {
-    this.selectedObject = object;
-  }
-  getSelectedObject(): String {
-    return this.selectedObject;
-  }
+  // setSelectedObject(object: String) {
+  //   this.selectedObject = object;
+  // }
+  // getSelectedObject(): String {
+  //   return this.selectedObject;
+  // }
 }
 
 declare global {

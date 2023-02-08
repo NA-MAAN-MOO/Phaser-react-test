@@ -56,19 +56,19 @@ export default class Lobby extends Phaser.Scene {
         if (
           Phaser.Input.Keyboard.JustDown(this.input.keyboard.addKey("SPACE"))
         ) {
-          if (typedPlayer.getSelectedObject() === "Class") {
-            return;
-          }
-          typedPlayer.setSelectedObject("Class");
+          // if (typedPlayer.getSelectedObject() === "Class") {
+          //   return;
+          // }
+          // typedPlayer.setSelectedObject("Class");
           // store.dispatch(openGame());  //리액트 컴포넌트와 연결할 경우
           this.scene.start("classroom");
         } else if (
           Phaser.Input.Keyboard.JustDown(this.input.keyboard.addKey("E"))
         ) {
-          if (typedPlayer.getSelectedObject() === "Editor") {
-            return;
-          }
-          typedPlayer.setSelectedObject("Editor");
+          // if (typedPlayer.getSelectedObject() === "Editor") {
+          //   return;
+          // }
+          // typedPlayer.setSelectedObject("Editor");
           store.dispatch(openEditor()); //리액트 컴포넌트와 연결할 경우
         }
       }
