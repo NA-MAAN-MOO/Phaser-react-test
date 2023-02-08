@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { useGame } from "../hooks/useGameContext";
 import styled from "styled-components";
+import { useSelector, useDispatch } from "react-redux";
+import { openMain, openEditor } from "../stores/modeSlice";
 
 const BackgroundDiv = styled.div`
   width: 100%;
@@ -18,14 +19,14 @@ const BtnDiv = styled.div`
   bottom: 10px;
 `;
 const Game = () => {
-  const { openEditor, openMain } = useGame();
+  const dispatch = useDispatch();
   return (
     <BackgroundDiv>
       <BtnDiv>
-        <button type="button" onClick={() => openEditor()}>
+        <button type="button" onClick={() => dispatch(openEditor())}>
           에디터 키기
         </button>
-        <button type="button" onClick={() => openMain()}>
+        <button type="button" onClick={() => dispatch(openMain())}>
           메인으로 가기
         </button>
       </BtnDiv>

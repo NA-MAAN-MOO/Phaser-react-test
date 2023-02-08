@@ -1,18 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Main from "./Main";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import GameContextProvider from "./contexts/GameContext";
 import "./PhaserGame";
+import { store } from "./stores";
+import { Provider } from "react-redux";
+import "./styles/Reset.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <GameContextProvider>
-      <Main />
-    </GameContextProvider>
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
