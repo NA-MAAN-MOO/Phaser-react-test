@@ -6,14 +6,20 @@ export default class Preloader extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("tiles", "assets/Isometric_MedievalFantasy_Tiles.png");
-    this.load.tilemapTiledJSON("example", "assets/example.json");
+    this.load.image("bigmap", "assets/bigmap/bigmap.png");
+    this.load.image("tinyBlocks_line", "assets/bigmap/tinyBlocks_line.png");
+    this.load.image("objects", "assets/Isometric_MedievalFantasy_Tiles.png");
+    this.load.tilemapTiledJSON("bigmap", "assets/bigmap/bigmap.json");
 
     this.load.atlas(
       "blueman",
       "characters/blueman.png",
       "characters/blueman.json"
     );
+    this.load.spritesheet("dude", "assets/dude.png", {
+      frameWidth: 32,
+      frameHeight: 48,
+    });
   }
 
   create() {
