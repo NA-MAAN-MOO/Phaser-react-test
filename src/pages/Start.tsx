@@ -3,6 +3,20 @@ import { useSelector, useDispatch } from "react-redux";
 import { openGame } from "../stores/modeSlice";
 import styled from "styled-components";
 
+const Start = () => {
+  const dispatch = useDispatch();
+  return (
+    <StartDiv>
+      <LogoDiv>코득코득</LogoDiv>
+      <LoginBtn type="button" onClick={() => dispatch(openGame())}>
+        로그인
+      </LoginBtn>
+    </StartDiv>
+  );
+};
+
+export default Start;
+
 const StartDiv = styled.div`
   width: 100%;
   height: 100%;
@@ -13,18 +27,18 @@ const StartDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid red;
+  flex-direction: column;
+  gap: 50px;
 `;
 
-const Start = () => {
-  const dispatch = useDispatch();
-  return (
-    <StartDiv>
-      <button type="button" onClick={() => dispatch(openGame())}>
-        게임 시작하기
-      </button>
-    </StartDiv>
-  );
-};
+const LogoDiv = styled.div`
+  font-size: 80px;
+`;
 
-export default Start;
+const LoginBtn = styled.button`
+  font-size: 40px;
+  padding: 20px;
+  background-color: tomato;
+  border: none;
+  border-radius: 20px;
+`;

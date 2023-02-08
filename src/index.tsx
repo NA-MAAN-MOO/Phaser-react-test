@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Main from "./Main";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./PhaserGame";
 import { store } from "./stores";
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Main />
+      <App />
     </Provider>
   </React.StrictMode>
 );

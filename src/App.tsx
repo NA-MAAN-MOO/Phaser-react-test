@@ -7,13 +7,7 @@ import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "./stores";
 
-const HoverDiv = styled.div`
-  position: absolute;
-  height: 100%;
-  width: 100%;
-`;
-
-function Main() {
+function App() {
   const { MAIN, GAME, EDITOR } = GAME_STATUS;
   const status = useSelector((state: RootState) => state.mode.status);
   const dispatch = useDispatch();
@@ -31,4 +25,10 @@ function Main() {
   );
 }
 
-export default Main;
+export default App;
+
+const HoverDiv = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+`;
