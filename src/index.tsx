@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Main from "./Main";
 import reportWebVitals from "./reportWebVitals";
-import GameContextProvider from "./contexts/GameContext";
 import "./PhaserGame";
 import { store } from "./stores";
 import { Provider } from "react-redux";
@@ -13,9 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <GameContextProvider>
-        <Main />
-      </GameContextProvider>
+      <Main />
     </Provider>
   </React.StrictMode>
 );

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useGame } from "../hooks/useGameContext";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { openMain, openEditor } from "../stores/modeSlice";

@@ -15,6 +15,7 @@ const StartDiv = styled.div`
   justify-content: center;
   border: 3px solid red;
 `;
+
 const Start = () => {
   const dispatch = useDispatch();
   return (
